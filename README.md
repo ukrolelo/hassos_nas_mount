@@ -1,6 +1,6 @@
 # hassos_nas_mount
 Mount NAS share directly to HASS OS
-It is based o GPARTED iso image
+It is based on GPARTED iso image
 
 **Instructions:**
 BOOT GPARTED image
