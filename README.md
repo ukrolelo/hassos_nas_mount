@@ -18,3 +18,9 @@ If you want to do your own image you need to insert this comands and then recomp
 sudo apt update<br>
 sudo apt-get install squashfs-tools<br>
 https://gparted.org/add-packages-in-gparted-live.php
+<br>
+
+gparted-live.md5<br>
+Contains md5 checksum<br>
+d8f187a8a8804cf0f71951d4b48cc77e<br>
+*gparted-live.iso<br>
