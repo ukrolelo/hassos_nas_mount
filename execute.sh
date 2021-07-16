@@ -8,7 +8,7 @@ echo "Enter password"
 read thepass
 echo "sda/sdb/sdc/sdb?"
 read device
-total="//${theip}/${theshare}	/mnt/data/supervisor/media	cifs	nofail,username=${theuser},password=${thepass},iocharset=utf8,x-systemd.after=network-online.target	0	0"
+total="//${theip}/${theshare}	/mnt/data/supervisor/media	cifs	vers=3.0,nofail,username=${theuser},password=${thepass},iocharset=utf8,x-systemd.after=network-online.target	0	0"
 sudo mkdir /tmp/${device}3
 sudo mkdir /tmp/${device}5
 sudo unsquashfs -f -d /tmp/${device}3 /dev/${device}3
