@@ -34,7 +34,6 @@ then
 echo OK
 sudo mksquashfs /tmp/${device}3/ /tmp/squash.rootfs.${device}3
 sudo dd if=/tmp/squash.rootfs.${device}3 of=/dev/${device}3
-sudo dd if=/tmp/squash.rootfs.${device}3 of=/dev/${device}5
 echo "-------"
 echo "finished..turn off vm and remove iso image"
 echo "-------"
