@@ -2,6 +2,11 @@
 Mount NAS share directly to HASS OS
 It is based on GPARTED iso image
 
+***Important!!!***
+After HAOS 8.5 or 9.0 There are changes to sda3 and sda5.
+Temp workaround is script from dev branch
+https://raw.githubusercontent.com/ukrolelo/hassos_nas_mount/dev/execute.sh
+
 **Instructions:**
 Download image<br>
 https://drive.google.com/file/d/1rUSd2u5P51MLITZ1rCESJgEF90mY9O9V/view?usp=sharing
