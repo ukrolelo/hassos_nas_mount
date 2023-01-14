@@ -136,7 +136,7 @@ insert below text:
 
 Then ending the image preparation with commands:
 ```shell
-``echo ' ' > /etc/resolv.conf
+echo ' ' > /etc/resolv.conf
 apt-get clean
 history -c
 exit
