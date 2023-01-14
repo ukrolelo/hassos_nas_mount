@@ -93,7 +93,6 @@ xorriso -osirrox on -indev "debian-live-11.6.0-amd64-standard.iso" -extract / is
 
 Create new folder unsquash in Downloads folder
 ```shell
-cd Downloads
 mkdir unsquash
 ```
 copy iso/live/filesystem.squashfs to new folder with command
