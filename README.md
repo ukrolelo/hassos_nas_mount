@@ -53,7 +53,8 @@ If by any reason there would be a problem, go look for logs located in ``/tmp/``
 
 Just to be 100% sure any accounts can be hacked and somebody can put malicious code inside my repository
 ====================
-Here is a tutorial how to make your own bootable image for Home Assistant NAS mount. Or just fork the repository so you will keep the md5 checksum and link for the file.
+Here is a tutorial how to make your own bootable image for Home Assistant NAS mount. Or just fork the repository so you will keep the md5 checksum 
+``hanasmountdebian-live-11.6.0-amd64-standard.md5`` and link for the file.
 Reuploaded file's google link can't be the same link if somebody/me change the file in the future.
 
 ###### 1.
