@@ -17,14 +17,14 @@ Requirements:
 - Everytime you update/upgrade Home Assistant check the sensor if the share is mounted, if not then you need to use this repository.
 
 ## STEP 1:
-MAKE A BACKUP OF Home Assistant VM !!!
+- MAKE A BACKUP OF Home Assistant VM !!!
 
 ## STEP 2:
 
-Create or take my template of fstab and upload it to new folder ``custom_components/hanasmount``.
-Create monitoring variable for mounted volume (i am sure my solution is not the best,but it works fine):
-Create file in the network share named ``thisisnas`` and put ``1`` inside and save.
-Setup a switch in Home Assistant to monitor mounted volume
+- Create or take my template of fstab and upload it to new folder ``custom_components/hanasmount``.
+- Create monitoring variable for mounted volume (i am sure my solution is not the best,but it works fine):
+- Create file in the network share named ``thisisnas`` and put ``1`` inside and save.
+- Setup a switch in Home Assistant to monitor mounted volume
 ```yaml
         nas_available_sw:
             command_on: "echo -e '1' > /media/thisisnas"
