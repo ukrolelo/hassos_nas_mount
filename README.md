@@ -114,7 +114,7 @@ run commands:
 ```shell
 echo 'nameserver 8.8.8.8' > /etc/resolv.conf
 sudo apt-get update
-sudo apt-get install squashfs-tools``
+sudo apt-get install squashfs-tools
 ```
 download execute.sh script from my repository to /root/
 ```shell
