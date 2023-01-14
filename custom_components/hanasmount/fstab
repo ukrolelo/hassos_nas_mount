@@ -1,0 +1,2 @@
+# UNCONFIGURED FSTAB FOR BASE SYSTEM
+//<IP>/<share> /mnt/data/supervisor/media cifs nofail,username=<USERNAME>,password=<PASSWORD>,iocharset=utf8,x-systemd.after=network-online.target 0 0 
