@@ -12,7 +12,7 @@ Recommended setup:
 
 Requirements:
 -------------------
-- Proxmox host with Home Assistant guest
+- Proxmox host with Home Assistant guest / RPI Home Assistant OS
 - 2GB of RAM (its for unsquashing images)
 - Everytime you update/upgrade Home Assistant check the sensor if the share is mounted, if not then you need to use this repository.
 
