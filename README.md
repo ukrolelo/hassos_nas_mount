@@ -1,3 +1,4 @@
+  [![HitCount](https://hits.dwyl.com/ukrolelo/hassos_nas_mount.svg?style=flat-square)](http://hits.dwyl.com/ukrolelo/hassos_nas_mount)
 Home Assistant NAS mount (hanasmount)
 ====================
 Mount NAS share directly to HASS OS
