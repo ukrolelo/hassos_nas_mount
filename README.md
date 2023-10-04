@@ -1,6 +1,9 @@
   [![HitCount](https://hits.dwyl.com/ukrolelo/hassos_nas_mount.svg?style=flat-square)](http://hits.dwyl.com/ukrolelo/hassos_nas_mount)
 Home Assistant NAS mount (hanasmount)
 ====================
+!! IMPORTANT !! As of Home Assistant 2023.6, there is build in option to mount NAS storage, tested for few month, working perfectly. I am removing the image from google drive on 1.1.2025.
+--------------
+
 Mount NAS share directly to HASS OS
 It is based on debian live iso image
 
